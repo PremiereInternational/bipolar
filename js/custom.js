@@ -21,11 +21,11 @@ $(document).ready(function() {
     
     
     /*ONE PAGE NAV*/
-    $('.nav.js nav').onePageNav({
+    $('.nav .js nav').onePageNav({
         filter : ':not(.external)',
         scrollThreshold : 0.25
     });
-    $('.js').onePageNav({
+    $('a.js').onePageNav({
         filter : ':not(.external)',
         scrollThreshold : 0.25
     });
@@ -142,7 +142,7 @@ addNavigation = function(carousel, state) {
   if ($('ul.pager').length > 2) {
     $('ul.pager').remove();
   }
-  console.log('test');
+  //console.log('test');
   carousel.pageSize = carousel.last - (carousel.first - 1);
   carousel.pageCount = Math.ceil($(carousel.list).children('li').length / carousel.pageSize);
   carousel.pageNumber = 1;
@@ -177,7 +177,7 @@ addNavigation = function(carousel, state) {
       return false;
     });
   }
-  console.log($(carousel.list).parents('.jcarousel-clip:first').parents('.mycont'));
+  //console.log($(carousel.list).parents('.jcarousel-clip:first').parents('.mycont'));
   $(carousel.list).parents('.jcarousel-clip:first').parents('.mycont').children('.pagination').html(navigation);
 }
 updateNavigationActive = function(carousel, item, idx, state) {
@@ -193,8 +193,8 @@ updateNavigationActive = function(carousel, item, idx, state) {
   // numbers beyond the total number of items. This complicated logic calculates
   // which page number is active based off this numbering scheme.
   var pageNumber = Math.ceil(idx / carousel.pageSize);
-  console.log(item);
-  console.log(pageNumber);
+  //console.log(item);
+  //console.log(pageNumber);
   if (pageNumber <= 0 || pageNumber > carousel.pageCount) {
     pageNumber = pageNumber % carousel.pageCount;
     pageNumber = pageNumber == 0 ? carousel.pageCount : pageNumber;
