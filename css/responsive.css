@@ -1,28 +1,29 @@
-    /*.portfolio_intro {
-        background-image: url(X.jpg);
-    }
-    .pricing_table_intro {
-        background-image: url(X.jpg);
-    }
-    .about_us_intro {
-        background-image: url(X.jpg);
-    }
-    .contact_us_intro {
-        background-image: url(X.jpg);
-    }*/
+.portfolio_intro {
+  background-image: url(../images/bpc_altbg_FINAL_1.jpg);
+}
+.pricing_table_intro {
+  background-image: url(../images/bpc_altgbg3_FINAL_1.jpg);
+}
+.about_us_intro {
+  background-image: url(../images/bpc_altgbg2_FINAL_1.jpg);
+}
+/*.contact_us_intro {
+  background-image: url(../images/bpc_altgbg3_FINAL.png);
+}*/
+
 @media (min-width: 769px) and (max-width: 979px) {
-    .logo {
-        float: none !important;
-        clear: both;
-    }
-    .nav {
-        float: none;
-        clear: both;
-        width: 100%;
-    }
-    .container {
-        width: 768px;
-    }
+  .logo {
+    float: none !important;
+    clear: both;
+  }
+  .nav {
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+  .container {
+    width: 768px;
+  }
 }
 @media (min-width: 700px) and (max-width: 768px) {
     body {
