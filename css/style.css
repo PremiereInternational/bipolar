@@ -11,11 +11,10 @@
 @import 'fresco.css';
 @import 'team.css';
 html, body {
-    background: #000;
+    background: #FFFFFF;
 }
 body {
     opacity: 0;
-    color: #d2ccb8;
     font-family: 'Roboto', sans-serif;
 }
 .margin_top_20 {
@@ -29,7 +28,8 @@ body {
 }
 /* HEADER */
 header {
-    background: url(../image/header_bg.png) repeat-x top;
+    background: url(x) repeat-x top;
+	color: #97bcdd;
     height: 111px;
     width: 100%;
     position: fixed;
@@ -101,67 +101,67 @@ nav li:hover a span.hover {
     top: 0px !important;
 }
 nav a.menu_1 {
-    border-top: #651a1a solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_2 {
-    border-top: #651a1a solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_3 {
-    border-top: #651a1a solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_4 {
-    border-top: #651a1a solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_5 {
-    border-top: #6e0808 solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_6 {
-    border-top: #651a1a solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_7 {
-    border-top: #4a494a solid 2px;
+    border-top: #e1b240 solid 2px;
 }
 nav a.menu_1 span.hover {
-    background: #651a1a;
+    background: #e1b240;
 }
 nav a.menu_1 .arr {
-    border-color: #651a1a transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 nav a.menu_2 span.hover {
-    background: #651a1a;
+    background: #e1b240;
 }
 nav a.menu_2 .arr {
-    border-color: #651a1a transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 nav a.menu_3 span.hover {
-    background: #651a1a;
+    background: #e1b240;
 }
 nav a.menu_3 .arr {
-    border-color: #651a1a transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 nav a.menu_4 span.hover {
-    background: #651a1a;
+    background: #e1b240;
 }
 nav a.menu_4 .arr {
-    border-color: #651a1a transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 nav a.menu_5 span.hover {
-    background: #6e0808;
+    background: #e1b240;
 }
 nav a.menu_5 .arr {
-    border-color: #6e0808 transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 nav a.menu_6 span.hover {
-    background: #651a1a;
+    background: #e1b240;
 }
 nav a.menu_6 .arr {
-    border-color: #651a1a transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 nav a.menu_7 span.hover {
-    background: #4a494a;
+    background: #e1b240;
 }
 nav a.menu_7 .arr {
-    border-color: #4a494a transparent transparent transparent;
+    border-color: #e1b240 transparent transparent transparent;
 }
 /* HOME */
 .slide_video {
@@ -180,7 +180,7 @@ nav a.menu_7 .arr {
     z-index: 99;
 }
 .slide_text .title1 {
-    color: #720808;
+    color: #e6e086;
     font-size: 72px;
     line-height: 72px;
     font-weight: 600;
@@ -207,7 +207,7 @@ nav a.menu_7 .arr {
     margin-bottom: 15px;
 }
 .yellow {
-    color: #720808;
+    color: #e6e086;
 }
 .slide_link {
     font-weight: 300;
@@ -238,17 +238,17 @@ nav a.menu_7 .arr {
     position: relative;
 }
 .serv_top {
-    border-color: transparent transparent #651a1a transparent;
+    border-color: transparent transparent #e6e086 transparent;
 }
 .serv_bot {
-    border-color: transparent #651a1a transparent transparent;
+    border-color: transparent #e6e086 transparent transparent;
 }
 #services .back2top {
-    border: #651a1a solid 1px;
-    color: #651a1a;
+    border: #e6e086 solid 1px;
+    color: #e6e086;
 }
 .serv_mid {
-    background: #651a1a;
+    background: #e6e086;
     padding: 30px 0;
 }
 /* SERV COROUSEL */
@@ -291,11 +291,11 @@ nav a.menu_7 .arr {
     top: -90px;
 }
 .jcarousel-prev{
-    background: url(../image/cor_nav.png) no-repeat left center;
+    background: url('../images/cor_nav.png') no-repeat left center;
     left: 0;
 }
 .jcarousel-next{
-    background: url(../image/cor_nav.png) no-repeat right center;
+    background: url('../images/cor_nav.png') no-repeat right center;
     right: 0;
 }
 .jcarousel-prev:hover,
@@ -336,17 +336,17 @@ nav a.menu_7 .arr {
     position: relative;
 }
 .portfolio_top {
-    border-color: transparent transparent transparent #323841;
+    border-color: transparent transparent transparent #30316c;
 }
 .portfolio_bot {
-    border-color: #323841 transparent transparent transparent;
+    border-color: #30316c transparent transparent transparent;
 }
 #portfolio .back2top {
-    border: #323841 solid 1px;
-    color: #323841;
+    border: #30316c solid 1px;
+    color: #30316c;
 }
 .portfolio_mid {
-    background: #323841;
+    background: #30316c;
     padding: 30px 0;
 }
 /**** Isotope Filtering ****/
@@ -431,7 +431,7 @@ nav a.menu_7 .arr {
     font-family: 'Roboto Condensed', sans-serif;
 }
 #filters li a.selected {
-    background: url(../image/filter_a.png) repeat;
+    background: url('../images/filter_a.png') repeat;
 }
 .isotope-item {
     margin: 0px 0 15px 0;
@@ -479,14 +479,14 @@ nav a.menu_7 .arr {
     -moz-transition: all 0.3s cubic-bezier(.63,.08,.35,.92);
     -o-transition: all 0.3s cubic-bezier(.63,.08,.35,.92);
     -ms-transition: all 0.3s cubic-bezier(.63,.08,.35,.92);
-    transition: all 0.3s cubic-bezier(.63,.08,.35,.92); 
+    transition: all 0.3s cubic-bezier(.63,.08,.35,.92);
 
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
     -o-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
-    -webkit-backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
     text-align: center;
 }
 .isotope-item:hover .over_box {
@@ -504,8 +504,8 @@ nav a.menu_7 .arr {
     padding: 15px;
 }
 .over_box_inner {
-    background: #000 url(../image/search.png) no-repeat center center;
-    background: rgba(0,0,0, 0.6) url(../image/search.png) no-repeat center center;
+    background: #000 url('../images/search.png') no-repeat center center;
+    background: rgba(0,0,0, 0.6) url('../images/search.png') no-repeat center center;
     padding: 15px;
 }
 .portfolio_name {
@@ -517,8 +517,8 @@ nav a.menu_7 .arr {
 }
 .portfolio_date {
     display: block;
-    color: #323841;
-      
+    color: #30316c;
+
 }
 .load_more {
     display: inline-block;
@@ -535,10 +535,10 @@ nav a.menu_7 .arr {
     position: relative;
 }
 .pricing_table_top {
-    border-color: transparent transparent #323841 transparent;
+    border-color: transparent transparent #30316c transparent;
 }
 .pricing_table_bot {
-    border-color: transparent #323841 transparent transparent;
+    border-color: transparent #30316c transparent transparent;
 }
 .pricing_table .span4 {
     border: transparent solid;
@@ -553,12 +553,12 @@ nav a.menu_7 .arr {
     color: #fff;
 }
 #pricing_table .back2top {
-    border: #323841 solid 1px;
-    color: #323841;
+    border: #30316c solid 1px;
+    color: #30316c;
 }
 .pricing_table_mid {
     padding: 30px 0;
-    background: #323841;
+    background: #30316c;
 }
 .pricing_table {
     text-align: center;
@@ -615,7 +615,7 @@ nav a.menu_7 .arr {
     font-weight: 600;
     color: rgba(255,255,255,0.3);
     line-height: 74px;
-    margin: 0; 
+    margin: 0;
 }
 .c_quot .plug {
     margin: 30px 0 0;
@@ -637,17 +637,17 @@ nav a.menu_7 .arr {
 }
 .about_us_mid {
     padding: 30px 0;
-    background: #6e0808;
+    background: #e6e086;
 }
 .about_us_top {
-    border-color: transparent transparent transparent #6e0808;
+    border-color: transparent transparent transparent #e6e086;
 }
 .about_us_bot {
-    border-color: #6e0808 transparent transparent transparent;
+    border-color: #e6e086 transparent transparent transparent;
 }
 #about_us .back2top {
-    border: #6e0808 solid 1px;
-    color: #6e0808;
+    border: #e6e086 solid 1px;
+    color: #e6e086;
 }
 .team_corusel .mycont{
     padding: 15px 0 0;
@@ -670,19 +670,26 @@ nav a.menu_7 .arr {
     height: 170px;
     font-size: 37px;
     padding: 80px 0 0;
-    background: url(../image/redbg.png) repeat;
+    /*background: url(X.png) repeat;*/
     display: none;
+}
+.purple_font {
+ color:#30316c;
+}
+.blue_font {
+ color:#97bcdd;
 }
 .team_name {
     font-size: 27px;
     padding: 15px 0;
-    background: url(../image/whiteline.png) repeat-x bottom;
+    background: url('../images/whiteline.png') repeat-x bottom;
     margin-bottom: 25px;
+	color: #30316c;
 }
 .team_name .sub {
-    font-size:13px;
+    font-size:11px;
     display: block;
-    margin: -10px 0 -10px;
+    margin: -5px 0 -10px;
 }
 .team_entry {
     font-size: 17px;
@@ -751,7 +758,7 @@ nav a.menu_7 .arr {
 /* FOOTER */
 footer {
     margin: -60px 0 0;
-    background: #000000;
+    background: #e1b240;
     padding: 80px 0 30px;
 }
 .footer_intro {
@@ -760,7 +767,7 @@ footer {
     margin-bottom: 60px;
 }
 .footer_intro h1, .footer_intro h2 {
-    color: #383838;
+    color: #FFFFFF;
     text-transform: uppercase;
     text-align: center;
 }
@@ -799,7 +806,7 @@ footer {
 }
 .latest_tweet ul li {
     padding-left: 40px;
-    background: url(../image/bird.png) no-repeat left top;
+    background: url('../images/bird.png') no-repeat left top;
     color: #fff;
     font-size: 14px;
     font-weight: 300;
@@ -862,7 +869,7 @@ footer {
 .post {
     margin: 50px 0;
     padding-bottom: 50px;
-    background: url(../image/whiteline.png) repeat-x bottom;
+    background: url('../images/whiteline.png') repeat-x bottom;
 }
 .post h2 a {
     text-transform: uppercase;
@@ -870,7 +877,7 @@ footer {
     text-decoration: none;
 }
 .post_thumb {
-    background: url(../image/whiteline.png) repeat;
+    background: url('../images/whiteline.png') repeat;
     padding: 5px;
     margin: 15px 0;
 }
@@ -909,7 +916,7 @@ footer {
     padding-left: 72px;
     display: block;
     text-decoration: none;
-    background: url(../image/rm.png) no-repeat left;
+    background: url('../images/rm.png') no-repeat left;
 }
 ul.pager {
     text-align: center;
@@ -942,13 +949,13 @@ ul.pager li a.current {
     margin: 0 10px;
 }
 .post_nav li.prev_post a {
-    background: url(../image/cor_nav.png) no-repeat left;
+    background: url('../images/cor_nav.png') no-repeat left;
 }
 .post_nav li.next_post a {
-    background: url(../image/cor_nav.png) no-repeat right;
+    background: url('../images/cor_nav.png') no-repeat right;
 }
 .post_nav li.back_blog a {
-    background: url(../image/back_blog.png) no-repeat;
+    background: url('../images/back_blog.png') no-repeat;
 }
 .post_nav li a {
     display: block;
@@ -993,7 +1000,7 @@ ul.pager li a.current {
     display: none;
 }
 #s {
-    background: rgba(0,0,0,0.2) url(../image/search-but.png) no-repeat 93% center;
+    background: rgba(0,0,0,0.2) url('../images/search-but.png') no-repeat 93% center;
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
@@ -1040,7 +1047,7 @@ ul.pager li a.current {
 }
 .recent_post {
     padding: 10px 0;
-    background: url(../image/whiteline.png) repeat-x top;
+    background: url('../images/whiteline.png') repeat-x top;
     overflow: hidden;
 }
 .recent_post_left {
@@ -1056,7 +1063,7 @@ ul.pager li a.current {
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-    color: #000; 
+    color: #000;
     background: #fff;
     font-size: 12px;
     padding: 5px 10px;
@@ -1156,10 +1163,10 @@ a:hover {
     font-size:18px;
     text-decoration:none;
     padding: 5px 15px;
-    -moz-border-radius: 25px; 
-    -webkit-border-radius: 25px; 
-    -khtml-border-radius: 25px; 
-    border-radius: 25px; 
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
     color: #fff;
     border: transparent solid 1px;
 }

@@ -784,8 +784,9 @@
     *width: 40.00205712942283%;
   }
   .row-fluid .span4 {
-    width: 31.491712707182323%;
+	width: 31.491712707182323%;
     *width: 31.43852121782062%;
+	color: #ffffff;
   }
   .row-fluid .span3 {
     width: 22.92817679558011%;

@@ -94,7 +94,7 @@ html[xmlns] .slides {
     height: 62px;
     margin: -31px 0 0;
     display: block;
-    background: url(../image/cor_nav.png) no-repeat left center;
+    background: url('images/cor_nav.png') no-repeat left center;
     position: absolute;
     top: 40%;
     z-index: 1099;
@@ -104,7 +104,7 @@ html[xmlns] .slides {
     -webkit-transition: all .3s ease;
 }
 .flex-direction-nav .flex-next {
-    background: url(../image/cor_nav.png) no-repeat right center;
+    background: url('images/cor_nav.png') no-repeat right center;
     right: 50px;
 }
 .flex-direction-nav .flex-prev {
