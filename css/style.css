@@ -28,7 +28,7 @@ body {
 }
 /* HEADER */
 header {
-    /*background: url(x) repeat-x top;*/
+    background: url(../images/blue_fade_1.png) repeat-x top;
 	color: #97bcdd;
     height: 111px;
     width: 100%;

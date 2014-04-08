@@ -278,25 +278,25 @@
         text-transform: uppercase;
     }
     .mob_nav ul li a.menu_1 {
-        background: #000;
+        background: #222;
     }
     .mob_nav ul li a.menu_2 {
-        background: #651a1a;
+        background: #222;
     }
     .mob_nav ul li a.menu_3 {
-        background: #324c68;
+        background: #222;
     }
     .mob_nav ul li a.menu_4 {
-        background: #324c68;
+        background: #222;
     }
     .mob_nav ul li a.menu_5 {
-        background: #6e0808;
+        background: #222;
     }
     .mob_nav ul li a.menu_6 {
-        background: #3d9b03;
+        background: #222;
     }
     .mob_nav ul li a.menu_7 {
-        background: #4a494a;
+        background: #222;
     }
     .trigger {
         cursor: pointer;
